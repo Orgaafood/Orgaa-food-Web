@@ -1,0 +1,46 @@
+
+> orgaa-app@0.1.0 build
+> next build
+
+   ▲ Next.js 15.0.3
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+ ⨯ ESLint: Invalid Options: - Unknown options: useEslintrc, extensions - 'extensions' has been removed.
+   Collecting page data ...
+   Generating static pages (0/19) ...
+   Generating static pages (4/19) 
+   Generating static pages (9/19) 
+   Generating static pages (14/19) 
+ ✓ Generating static pages (19/19)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    8.84 kB         166 kB
+├ ○ /_not-found                          896 B           101 kB
+├ ○ /blog                                2.01 kB         156 kB
+├ ○ /bot                                 2.33 kB         151 kB
+├ ○ /cart                                3.85 kB         152 kB
+├ ○ /chat                                1.67 kB         150 kB
+├ ○ /checkup                             2.35 kB         151 kB
+├ ○ /consultation                        2.11 kB         151 kB
+├ ○ /contact                             3.57 kB         152 kB
+├ ○ /dashboard                           1.38 kB         114 kB
+├ ○ /faq                                 2.07 kB         151 kB
+├ ○ /offers                              2.15 kB         154 kB
+├ ○ /orders                              1.82 kB         150 kB
+├ ○ /products                            2.34 kB         154 kB
+├ ƒ /products/[id]                       2.15 kB         154 kB
+├ ○ /reviews                             4.41 kB         158 kB
+└ ○ /tips                                2.26 kB         151 kB
++ First Load JS shared by all            99.9 kB
+  ├ chunks/4bd1b696-b4d4c3868257e762.js  52.5 kB
+  ├ chunks/517-6fb48473ef95cd2f.js       45.5 kB
+  └ other shared chunks (total)          1.91 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
